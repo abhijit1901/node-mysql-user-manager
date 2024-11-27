@@ -1,7 +1,9 @@
 ```markdown
 # Bulk Insert of Random User Data into MySQL Using Node.js
 
-This project demonstrates how to generate random user data and bulk insert it into a MySQL database using Node.js and the `@faker-js/faker` library. The application uses the `mysql2` library to interact with MySQL and `express` to serve dynamic HTML pages using the EJS template engine.
+This project demonstrates how to generate random user data and bulk insert it into a MySQL database using Node.js
+ and the `@faker-js/faker` library. The application uses the `mysql2` library to interact with MySQL and `express`
+to serve dynamic HTML pages using the EJS template engine.
 
 ## Features
 

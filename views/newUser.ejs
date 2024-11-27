@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new user update</title>
+</head>
+<body>
+    <h2>enter your details</h2>
+
+    <form method="Post" action="/user">
+        <input name="id" value="<%=randomId%>" readonly>
+        <input type ="text" name="username" placeholder="enter username">
+        <input type ="email" name="email" placeholder="enter your email">
+        <input type ="password" name="password" placeholder="enter password">
+        <button>add</button>
+    </form>
+</body>
+</html>
